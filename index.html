@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roy Heyne — diese Seite ist umgezogen: royheyne.de</title>
+<meta name="description" content="Termine, Programme, Instrumente und Kontakt von Kantor und Organist Roy Heyne stehen jetzt auf royheyne.de.">
+<link rel="canonical" href="https://royheyne.de/">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Roy Heyne — diese Seite ist umgezogen">
+<meta property="og:description" content="Termine, Programme, Instrumente und Kontakt stehen jetzt auf royheyne.de.">
+<meta property="og:url" content="https://royheyne.de/">
+<meta property="og:site_name" content="Roy Heyne">
+<meta property="og:locale" content="de_DE">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Spectral:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --pergament:#F2EEE4; --pergament-hell:#FAF7F0; --pergament-warm:#F6EFD9;
+    --tinte:#211E19; --schiefer:#56514A; --zinn:#8B867B;
+    --haarlinie:#DAD3C5; --messing:#9C7C43; --messing-dunkel:#7E6334;
+    --messing-tief:#5F4A26; --nachtschiefer:#1A1813; --pergament-text:#ECE6D8;
+    --auf-dunkel-leise:#B6AE9C;
+    --font-display:'Cormorant Garamond','TeX Gyre Termes',Georgia,serif;
+    --font-body:'Spectral','TeX Gyre Termes',Georgia,serif;
+    --font-ui:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+    --radius-sm:2px; --radius-md:3px;
+    --gutter:24px;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{margin:0;background:var(--pergament);color:var(--schiefer);
+       font-family:var(--font-body);font-size:17px;line-height:1.7;
+       -webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding-inline:var(--gutter);}
+  a{color:var(--messing-dunkel);text-decoration:none;
+    border-bottom:1px solid rgba(156,124,67,.35);transition:border-color .18s ease,color .18s ease;}
+  a:hover{color:var(--tinte);border-bottom-color:var(--tinte);}
+  a:focus-visible{outline:2px solid var(--messing);outline-offset:3px;border-radius:var(--radius-sm);}
+
+  /* ── Kopf ─────────────────────────────────────────────── */
+  .kopf{background:var(--nachtschiefer);color:var(--pergament-text);
+        padding-block:clamp(56px,9vw,96px);text-align:center;}
+  .wortmarke{font-family:var(--font-display);font-weight:600;
+             font-size:clamp(38px,8vw,68px);letter-spacing:.06em;line-height:1;
+             margin:0;color:var(--pergament-text);}
+  .rollen{font-family:var(--font-body);font-style:italic;
+          font-size:clamp(15px,2.4vw,18px);color:var(--auf-dunkel-leise);
+          margin-top:14px;letter-spacing:.02em;}
+  .zierlinie{width:min(320px,64%);height:1px;background:var(--messing);
+             margin:26px auto 0;opacity:.75;}
+  .umzug{font-family:var(--font-display);font-weight:500;font-style:italic;
+         font-size:clamp(22px,4.2vw,32px);color:var(--pergament-text);
+         margin:30px 0 0;line-height:1.28;text-wrap:balance;}
+  .ziel{display:inline-block;margin-top:26px;font-family:var(--font-ui);
+        font-size:15px;font-weight:500;letter-spacing:.02em;
+        padding:14px 30px;border:1px solid var(--messing);
+        border-radius:var(--radius-sm);color:var(--pergament-text);
+        background:transparent;}
+  .ziel:hover{background:var(--messing);color:var(--nachtschiefer);
+              border-color:var(--messing);}
+  .fremdsprachig{margin-top:30px;font-family:var(--font-ui);font-size:13px;
+                 line-height:1.85;color:var(--auf-dunkel-leise);}
+  .fremdsprachig a{color:var(--auf-dunkel-leise);border-bottom-color:rgba(182,174,156,.4);}
+  .fremdsprachig a:hover{color:var(--pergament-text);border-bottom-color:var(--pergament-text);}
+
+  /* ── Abschnitte ───────────────────────────────────────── */
+  section{padding-block:clamp(44px,6vw,68px);}
+  .titel{font-family:var(--font-display);font-weight:600;
+         font-size:clamp(22px,3.6vw,28px);color:var(--tinte);margin:0;
+         letter-spacing:.01em;}
+  .punkt{color:var(--messing);}
+  .einleitung{margin-top:14px;max-width:60ch;}
+
+  .wege{list-style:none;padding:0;margin:26px 0 0;
+        border-top:1px solid var(--haarlinie);}
+  .wege li{border-bottom:1px solid var(--haarlinie);padding-block:16px;
+           display:grid;grid-template-columns:minmax(140px,0.8fr) 1.6fr;
+           gap:6px 26px;align-items:baseline;}
+  .wege .was{font-family:var(--font-ui);font-size:14px;font-weight:600;
+             color:var(--tinte);letter-spacing:.01em;}
+  .wege .dazu{font-size:16px;color:var(--schiefer);margin:0;}
+  @media (max-width:560px){ .wege li{grid-template-columns:1fr;} }
+
+  /* ── Impressum ────────────────────────────────────────── */
+  .recht{background:var(--pergament-hell);border-top:1px solid var(--haarlinie);
+         border-bottom:1px solid var(--haarlinie);}
+  .rechtskopf{font-family:var(--font-ui);font-size:11px;letter-spacing:.18em;
+              text-transform:uppercase;color:var(--zinn);margin-bottom:8px;}
+  .block{margin-top:26px;}
+  .block h3{font-family:var(--font-ui);font-size:12.5px;font-weight:600;
+            letter-spacing:.06em;text-transform:uppercase;color:var(--messing-tief);
+            margin:0 0 8px;}
+  .block p{margin:0;font-size:16px;}
+  .anschrift{font-family:var(--font-body);font-size:16.5px;line-height:1.75;color:var(--tinte);}
+  .klein{font-size:15px;color:var(--schiefer);max-width:66ch;}
+  .stand{margin-top:30px;padding-top:16px;border-top:1px solid var(--haarlinie);
+         font-family:var(--font-ui);font-size:12.5px;color:var(--zinn);}
+  .schluss-zier{text-align:center;color:var(--messing);font-size:20px;
+                margin-top:34px;line-height:1;}
+
+  /* ── Fuß ──────────────────────────────────────────────── */
+  .fuss{background:var(--nachtschiefer);color:var(--auf-dunkel-leise);
+        padding-block:38px;font-family:var(--font-ui);font-size:13px;
+        text-align:center;line-height:1.8;}
+  .fuss a{color:var(--pergament-text);border-bottom-color:rgba(236,230,216,.35);}
+  .fuss a:hover{border-bottom-color:var(--pergament-text);}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important;}}
+</style>
+</head>
+<body>
+
+<header class="kopf">
+  <div class="wrap">
+    <h1 class="wortmarke">ROY HEYNE</h1>
+    <div class="rollen">Kantor · Organist · Cembalist</div>
+    <div class="zierlinie" aria-hidden="true"></div>
+    <p class="umzug">Diese Seite ist umgezogen.</p>
+    <a class="ziel" href="https://royheyne.de/">royheyne.de</a>
+    <p class="fremdsprachig">
+      This page has moved — everything is now at <a href="https://royheyne.de/en/">royheyne.de</a>.<br>
+      Tato stránka se přestěhovala — vše najdete na <a href="https://royheyne.de/cs/">royheyne.de</a>.
+    </p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2 class="titel">Was Sie dort finden<span class="punkt">.</span></h2>
+    <p class="einleitung">Die neue Seite führt alles, was hier stand — und deutlich
+       mehr. Sie wird laufend gepflegt; diese Seite nicht.</p>
+
+    <ul class="wege">
+      <li>
+        <span class="was"><a href="https://royheyne.de/konzerte/">Konzerte</a></span>
+        <p class="dazu">Alle kommenden Termine mit Ort, Instrument und Programm —
+           darunter der Geisinger Orgelsommer, mittwochs von Juni bis September.</p>
+      </li>
+      <li>
+        <span class="was"><a href="https://royheyne.de/orgel/">Ranft-Orgel 1757</a></span>
+        <p class="dazu">Disposition, Stimmung und Geschichte des größten erhaltenen
+           Werks von Johann Daniel Ranft in der Stadtkirche Geising.</p>
+      </li>
+      <li>
+        <span class="was"><a href="https://royheyne.de/instrumente/">Meine Claviere</a></span>
+        <p class="dazu">Cembalo nach Christian Vater, Ottavino und Orgelpositiv —
+           mit Erbauern, Stimmtonhöhen und Temperierungen.</p>
+      </li>
+      <li>
+        <span class="was"><a href="https://royheyne.de/edition/">Edition</a></span>
+        <p class="dazu">PRÆLUDIA PASTORALIS pro Organo — böhmische Pastorellen des
+           18. Jahrhunderts, erschienen 2023 im Verlag Klaus-Jürgen Kamprad.</p>
+      </li>
+      <li>
+        <span class="was"><a href="https://royheyne.de/vita/">Vita</a></span>
+        <p class="dazu">Werdegang, Lehrer, Schwerpunkte — und die Chronik der
+           Konzerte seit 2020.</p>
+      </li>
+      <li>
+        <span class="was"><a href="https://royheyne.de/kontakt/">Kontakt</a></span>
+        <p class="dazu">Anfragen für Konzerte, Gottesdienste und Aufnahmen.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="recht">
+  <div class="wrap">
+    <div class="rechtskopf">Kurzimpressum</div>
+    <h2 class="titel">Angaben gemäß § 5 DDG und § 18 Abs. 2 MStV<span class="punkt">.</span></h2>
+
+    <div class="block">
+      <h3>Diensteanbieter</h3>
+      <p class="anschrift">
+        Roy Heyne, M.Mus.<br>
+        Lauensteiner Str. 14<br>
+        01277 Dresden<br>
+        Deutschland
+      </p>
+    </div>
+
+    <div class="block">
+      <h3>Kontakt</h3>
+      <p class="anschrift">
+        Telefon: +49 1520 986 90 88<br>
+        E-Mail: <a href="mailto:post@royheyne.de">post@royheyne.de</a>
+      </p>
+    </div>
+
+    <div class="block">
+      <h3>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h3>
+      <p class="anschrift">
+        Roy Heyne<br>
+        Lauensteiner Str. 14<br>
+        01277 Dresden<br>
+        Deutschland
+      </p>
+    </div>
+
+    <div class="block">
+      <h3>Haftung für Links</h3>
+      <p class="klein">Diese Seite verweist auf royheyne.de sowie auf externe Websites
+        Dritter. Auf deren Inhalte habe ich keinen Einfluss. Für die Inhalte der
+        verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber
+        verantwortlich. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung
+        nicht erkennbar. Bei Bekanntwerden entsprechender Rechtsverletzungen werden
+        solche Links entfernt.</p>
+    </div>
+
+    <div class="block">
+      <h3>Urheberrecht</h3>
+      <p class="klein">Die durch den Seitenbetreiber erstellten Inhalte und Werke auf
+        dieser Seite unterliegen dem deutschen Urheberrecht. Jede Verwertung außerhalb
+        der Grenzen des Urheberrechts bedarf der vorherigen Zustimmung des jeweiligen
+        Rechteinhabers.</p>
+    </div>
+
+    <div class="block">
+      <h3>Verbraucherstreitbeilegung</h3>
+      <p class="klein">Ich bin weder verpflichtet noch bereit, an einem
+        Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle
+        teilzunehmen.</p>
+    </div>
+
+    <div class="block">
+      <h3>Datenschutz</h3>
+      <p class="klein">Diese Seite erhebt selbst keine personenbezogenen Daten: Sie
+        enthält kein Formular, keine Zählpixel und setzt keine Cookies. Beim Abruf
+        verarbeitet der Hoster technisch notwendige Zugriffsdaten. Die vollständige
+        Datenschutzerklärung steht auf
+        <a href="https://royheyne.de/datenschutz/">royheyne.de/datenschutz</a>.</p>
+    </div>
+
+    <div class="schluss-zier" aria-hidden="true">&#10087;</div>
+    <p class="stand">Stand: September 2026 · Diese Seite wird nicht weiter gepflegt.
+       Verbindlich ist <a href="https://royheyne.de/">royheyne.de</a>.</p>
+  </div>
+</section>
+
+<footer class="fuss">
+  <div class="wrap">
+    Roy Heyne — Kantor und Organist im Ev.-Luth. Kirchspiel Osterzgebirge · Region Altenberg<br>
+    <a href="https://royheyne.de/">royheyne.de</a>
+  </div>
+</footer>
+
+</body>
+</html>
